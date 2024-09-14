@@ -1,0 +1,49 @@
+# Web Interface and Interactivity
+streamlit==1.23.0          # For building the user interface and handling file uploads
+
+# Data Handling and Analysis
+pandas==2.0.1              # For data manipulation and analysis, especially for CSV files
+numpy==1.24.3              # For numerical operations and arrays
+scipy==1.10.0              # For scientific and technical computing (statistics, etc.)
+openpyxl==3.1.2            # For reading/writing Excel files (in case you support XLSX)
+
+# Visualization Libraries
+matplotlib==3.7.1          # For basic plotting and visualizations
+seaborn==0.12.0            # Statistical data visualization on top of matplotlib
+plotly==5.15.0             # Interactive plotting (web-based, useful for rich Streamlit visualizations)
+altair==5.0.1              # Declarative statistical visualization, works well with Streamlit
+bokeh==3.1.1               # Interactive visualizations for modern web browsers
+pydeck==0.8.0              # Geospatial visualizations (optional if your data has a geographic aspect)
+folium==0.14.0             # Another option for creating interactive maps
+
+# Machine Learning and NLP for Chatbot
+transformers==4.30.2       # NLP models from Hugging Face for chatbot capability
+scikit-learn==1.3.0        # Machine learning models for analysis or any other ML requirements
+nltk==3.8.1                # Natural Language Toolkit for NLP tasks (tokenization, stemming, etc.)
+spacy==3.5.3               # Advanced NLP processing (tokenization, named entity recognition, etc.)
+sentence-transformers==2.2.2  # For sentence embedding-based NLP models (useful for chatbot functionality)
+
+# Visualization Utilities
+pillow==9.4.0              # For image processing (if your chatbot handles or generates images)
+#wordcloud==1.8.2.2         # For generating word clouds from text data
+graphviz==0.20.1           # Visualizing decision trees or other graph-based models
+pydot==1.4.2               # Drawing graphs (useful for visualizing network data)
+
+
+
+# File and Data Handling
+pyyaml==6.0                # To read and write YAML files if needed
+jsonschema==4.17.3         # For validating JSON files and data
+
+# Testing and Linting
+pytest==7.1.2              # Testing framework for your Python code
+unittest2==1.1.0           # Extended version of Python's built-in unittest
+flake8==5.0.4              # For linting Python code to enforce coding standards
+coverage==6.5.0            # To measure code coverage in tests
+
+# Other Utilities
+tqdm==4.65.0               # Progress bars (useful for tracking long-running processes in your chatbot)
+rich==13.3.2               # For rich text formatting in the terminal or Streamlit interface
+loguru==0.6.0              # Advanced logging framework for better debugging
+
+ollama
